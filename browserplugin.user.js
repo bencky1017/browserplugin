@@ -7,7 +7,7 @@
 // @author       BenckyC
 // @match        *://*.aliyundrive.com/*
 // @match        *://*.csdn.net/*
-// @require      https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js
+// @require      https://bencky1017.github.io/browserplugin/jquery-3.5.1.min.js
 // @grant        none
 // ==/UserScript==
 
