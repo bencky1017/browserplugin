@@ -20,6 +20,8 @@
         //允许 未登录复制
         $('#content_views pre,#content_views pre code').css({'-webkit-user-select':'auto'},{'user-select':':auto'});
         $('.hljs-button,.signin').attr('data-title','可复制');
+        //去除 顶部广告
+        $('.toolbar-advert').remove();
 
 
         //知乎去除登录
