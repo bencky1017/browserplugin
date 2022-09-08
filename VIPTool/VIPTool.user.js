@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         🔄VIPTool集合VIP破解和视频加速功能于一体🔥
+// @name         🔥VIPTool——集合VIP破解和视频加速功能于一体🔥
 // @description  集合VIP破解和视频加速功能，原作者标注在对应模块的开头。
 // @namespace    https://github.com/bencky1017/browserplugin/VIPTool
-// @version      0.1.6
+// @version      0.1.8
 // @icon         data:image/png;base64,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
 // @author       BenckyC
 // @antifeature  tracking ============================================>>> 说明：自定义插件
@@ -47,6 +47,7 @@
 // @require      https://bencky1017.github.io/browserplugin/jquery-3.5.1.min.js
 // @require      http://cdn.bootcss.com/jquery/3.6.1/jquery.min.js
 // @require      https://bencky1017.github.io/browserplugin/Everything-Hook.js
+// @require      https://greasyfork.org/scripts/372672-everything-hook/code/Everything-Hook.js?version=881251
 // @charset      UTF-8
 // @grant        GM_getValue
 // @grant        GM_setValue
@@ -57,16 +58,18 @@
 // @grant        GM_openInTab
 // ==/UserScript==
 
-// VIP工具盒子
-/**详细信息如下
+
+/**VIP工具盒子
  * Title:       VIPTool
  * Date:        2022-9-4 17:11:49
  * Author:      Bencky1017
  * View:        https://github.com/bencky1017/browserplugin/
- * Version:     v0.1.6
+ * Version:     v0.1.8
  * Description: 本人编写部分内容，引用其他作者的内容处均已经标注原作者信息，如有侵权问题请联系本人QQ757490662
+ * Reference1:  计时器掌控者|视频广告跳过|视频广告加速器 https://greasyfork.org/zh-CN/scripts/372673
+ * Reference1:  全网VIP视频免费破解【专注一个脚本只做一件事件】 https://greasyfork.org/zh-CN/scripts/438657
  */
-var version='0.1.6';
+var version='0.1.8';
 $(function() {
 	'use strict'
 
@@ -234,7 +237,6 @@ $(function() {
 				}
 			};
 		}(),
-		// 
 		/**全网VIP视频免费破解，引用w__yi方法
 		 * 修改了相关的界面样式
 		 * 
@@ -562,663 +564,664 @@ $(function() {
 			(function () {
 				parseVip.start();
 			})();
-		}()
-	};
+		}(),
+		/**计时器掌控者设置，引用苍石居的劫持方法
+		 * 修改了UI设置部分及快捷键操作内容
+		 * 修改部分： applyUI registerShortcutKeys timerHooker.init timerHooker.change
+		 * 原作者信息如下
+		 * ---------------------------
+		 * Time: 2017/11/20 19:28.
+		 * Author: Cangshi苍石居
+		 * View: http://palerock.cn
+		 * require: https://greasyfork.org/scripts/372672-everything-hook/code/Everything-Hook.js?version=881251
+		 * license: GPL-3.0-or-later
+		 * ---------------------------
+		 */
+		timeController:function(){
 
-	/**计时器掌控者设置，引用苍石居的劫持方法
-	 * 修改了UI设置部分及快捷键操作内容
-	 * 修改部分： applyUI registerShortcutKeys timerHooker.init timerHooker.change
-	 * 原作者信息如下
-	 * ---------------------------
-	 * Time: 2017/11/20 19:28.
-	 * Author: Cangshi苍石居
-	 * View: http://palerock.cn
-	 * require: https://greasyfork.org/scripts/372672-everything-hook/code/Everything-Hook.js?version=881251
-	 * license: GPL-3.0-or-later
-	 * ---------------------------
-	 */
+			// GM中添加元素标签
+			GM_addElement('script',{
+				type:"text/javascript",
+				src:"https://bencky1017.github.io/browserplugin/Everything-Hook.js"
+				// src:"https://greasyfork.org/scripts/372672-everything-hook/code/Everything-Hook.js?version=881251"
+			});
 
-	// GM中添加元素标签
-	GM_addElement('script',{
-		type:"text/javascript",
-		src:"https://bencky1017.github.io/browserplugin/Everything-Hook.js"
-		// src:"https://greasyfork.org/scripts/372672-everything-hook/code/Everything-Hook.js?version=881251"
-	});
+			window.isDOMLoaded = false;
+			window.isDOMRendered = false;
 
-	window.isDOMLoaded = false;
-	window.isDOMRendered = false;
+			document.addEventListener('readystatechange', function () {
+				if (document.readyState === "interactive" || document.readyState === "complete") {
+					window.isDOMLoaded = true;
+				}
+			});
 
-	document.addEventListener('readystatechange', function () {
-		if (document.readyState === "interactive" || document.readyState === "complete") {
-			window.isDOMLoaded = true;
-		}
-	});
+			~function (global) {
+				var workerURLs = [];
+				var extraElements = [];
+				var suppressEvents = {};
 
-	~function (global) {
-		var workerURLs = [];
-		var extraElements = [];
-		var suppressEvents = {};
+				var helper = function (eHookContext, timerContext, util) {
+					return {
+						applyUI: function () {
+							var  style='';
+							// var displayNum = (1 / timerContext._percentage).toFixed(2);
 
-		var helper = function (eHookContext, timerContext, util) {
-			return {
-				applyUI: function () {
-					var  style='';
-					// var displayNum = (1 / timerContext._percentage).toFixed(2);
+							var clickMapper = {
+								// '_item-input': function () {
+								// 	changeTime();
+								// },
+								'time_x2': function () {
+									changeTime(2, 0, true);
+								},
+								'time_x_2': function () {
+									changeTime(-2, 0, true);
+								},
+								'time_xx2': function () {
+									changeTime(0, 2);
+								},
+								'time_xx_2': function () {
+									changeTime(0, -2);
+								},
+								'time_reset': function () {
+									changeTime(0, 0, false, true);
+								}
+							};
 
-					var clickMapper = {
-						// '_item-input': function () {
-						// 	changeTime();
-						// },
-						'time_x2': function () {
-							changeTime(2, 0, true);
-						},
-						'time_x_2': function () {
-							changeTime(-2, 0, true);
-						},
-						'time_xx2': function () {
-							changeTime(0, 2);
-						},
-						'time_xx_2': function () {
-							changeTime(0, -2);
-						},
-						'time_reset': function () {
-							changeTime(0, 0, false, true);
-						}
-					};
+							Object.keys(clickMapper).forEach(function (className) {
+								var exec = clickMapper[className];
+								var targetEle = document.getElementsByClassName(className)[0];
+								if (targetEle) {
+									targetEle.onclick = exec;
+								}
+							});
 
-					Object.keys(clickMapper).forEach(function (className) {
-						var exec = clickMapper[className];
-						var targetEle = document.getElementsByClassName(className)[0];
-						if (targetEle) {
-							targetEle.onclick = exec;
-						}
-					});
-
-					if (!global.isDOMLoaded) {
-						document.addEventListener('readystatechange', function () {
-							if ((document.readyState === "interactive" || document.readyState === "complete") && !global.isDOMRendered) {
+							if (!global.isDOMLoaded) {
+								document.addEventListener('readystatechange', function () {
+									if ((document.readyState === "interactive" || document.readyState === "complete") && !global.isDOMRendered) {
+										// document.head.appendChild(stylenode);
+										// document.body.appendChild(node);
+										global.isDOMRendered = true;
+										console.log('Time Hooker Works!');
+									}
+								});
+							} else {
 								// document.head.appendChild(stylenode);
 								// document.body.appendChild(node);
 								global.isDOMRendered = true;
 								console.log('Time Hooker Works!');
 							}
-						});
-					} else {
-						// document.head.appendChild(stylenode);
-						// document.body.appendChild(node);
-						global.isDOMRendered = true;
-						console.log('Time Hooker Works!');
-					}
-				},
-				applyGlobalAction: function (timer) {
-					// 界面半圆按钮点击的方法
-					timer.changeTime = function (anum, cnum, isa, isr) {
-						if (isr) {
-							global.timer.change(1);
-							console.log(0);
-							return;
-						}
-						if (!global.timer) {
-							return;
-						}
-						var result;
-						if (!anum && !cnum) {
-							var t = prompt("输入欲改变计时器变化倍率（当前：" + 1 / timerContext._percentage + "）");
-							if (t == null) {
-								return;
-							}
-							if (isNaN(parseFloat(t))) {
-								alert("请输入正确的数字");
-								timer.changeTime();
-								return;
-							}
-							if (parseFloat(t) <= 0) {
-								alert("倍率不能小于等于0");
-								timer.changeTime();
-								return;
-							}
-							result = 1 / parseFloat(t);
-						} else {
-							if (isa && anum) {
-								if (1 / timerContext._percentage <= 1 && anum < 0) {
+						},
+						applyGlobalAction: function (timer) {
+							// 界面半圆按钮点击的方法
+							timer.changeTime = function (anum, cnum, isa, isr) {
+								if (isr) {
+									global.timer.change(1);
+									console.log(0);
 									return;
 								}
-								result = 1 / (1 / timerContext._percentage + anum);
-							} else {
-								if (cnum <= 0) {
-									cnum = 1 / -cnum
+								if (!global.timer) {
+									return;
 								}
-								result = 1 / ((1 / timerContext._percentage) * cnum);
-							}
-						}
-						timer.change(result);
-						console.log(1 / timerContext._percentage);
-					};
-					global.changeTime = timer.changeTime;
-				},
-				applyHooking: function () {
-					var _this = this;
-					// 劫持循环计时器
-					eHookContext.hookReplace(window, 'setInterval', function (setInterval) {
-						return _this.getHookedTimerFunction('interval', setInterval);
-					});
-					// 劫持单次计时
-					eHookContext.hookReplace(window, 'setTimeout', function (setTimeout) {
-						return _this.getHookedTimerFunction('timeout', setTimeout)
-					});
-					// 劫持循环计时器的清除方法
-					eHookContext.hookBefore(window, 'clearInterval', function (method, args) {
-						_this.redirectNewestId(args);
-					});
-					// 劫持循环计时器的清除方法
-					eHookContext.hookBefore(window, 'clearTimeout', function (method, args) {
-						_this.redirectNewestId(args);
-					});
-					var newFunc = this.getHookedDateConstructor();
-					eHookContext.hookClass(window, 'Date', newFunc, '_innerDate', ['now']);
-					Date.now = function () {
-						return new Date().getTime();
-					};
-					eHookContext.hookedToString(timerContext._Date.now, Date.now);
-					var objToString = Object.prototype.toString;
-
-					Object.prototype.toString = function toString() {
-						'use strict';
-						if (this instanceof timerContext._mDate) {
-							return '[object Date]';
-						} else {
-							return objToString.call(this);
-						}
-					};
-
-					eHookContext.hookedToString(objToString, Object.prototype.toString);
-					eHookContext.hookedToString(timerContext._setInterval, setInterval);
-					eHookContext.hookedToString(timerContext._setTimeout, setTimeout);
-					eHookContext.hookedToString(timerContext._clearInterval, clearInterval);
-					timerContext._mDate = window.Date;
-					this.hookShadowRoot();
-				},
-				getHookedDateConstructor: function () {
-					return function () {
-						if (arguments.length === 1) {
-							Object.defineProperty(this, '_innerDate', {
-								configurable: false,
-								enumerable: false,
-								value: new timerContext._Date(arguments[0]),
-								writable: false
+								var result;
+								if (!anum && !cnum) {
+									var t = prompt("输入欲改变计时器变化倍率（当前：" + 1 / timerContext._percentage + "）");
+									if (t == null) {
+										return;
+									}
+									if (isNaN(parseFloat(t))) {
+										alert("请输入正确的数字");
+										timer.changeTime();
+										return;
+									}
+									if (parseFloat(t) <= 0) {
+										alert("倍率不能小于等于0");
+										timer.changeTime();
+										return;
+									}
+									result = 1 / parseFloat(t);
+								} else {
+									if (isa && anum) {
+										if (1 / timerContext._percentage <= 1 && anum < 0) {
+											return;
+										}
+										result = 1 / (1 / timerContext._percentage + anum);
+									} else {
+										if (cnum <= 0) {
+											cnum = 1 / -cnum
+										}
+										result = 1 / ((1 / timerContext._percentage) * cnum);
+									}
+								}
+								timer.change(result);
+								console.log(1 / timerContext._percentage);
+							};
+							global.changeTime = timer.changeTime;
+						},
+						applyHooking: function () {
+							var _this = this;
+							// 劫持循环计时器
+							eHookContext.hookReplace(window, 'setInterval', function (setInterval) {
+								return _this.getHookedTimerFunction('interval', setInterval);
 							});
-							return;
-						} else if (arguments.length > 1) {
-							var definedValue;
-							switch (arguments.length) {
-								case 2:
-									definedValue = new timerContext._Date(
-										arguments[0],
-										arguments[1]
-									);
-									break;
-								case 3:
-									definedValue = new timerContext._Date(
-										arguments[0],
-										arguments[1],
-										arguments[2],
-									);
-									break;
-								case 4:
-									definedValue = new timerContext._Date(
-										arguments[0],
-										arguments[1],
-										arguments[2],
-										arguments[3],
-									);
-									break;
-								case 5:
-									definedValue = new timerContext._Date(
-										arguments[0],
-										arguments[1],
-										arguments[2],
-										arguments[3],
-										arguments[4]
-									);
-									break;
-								case 6:
-									definedValue = new timerContext._Date(
-										arguments[0],
-										arguments[1],
-										arguments[2],
-										arguments[3],
-										arguments[4],
-										arguments[5]
-									);
-									break;
-								default:
-								case 7:
-									definedValue = new timerContext._Date(
-										arguments[0],
-										arguments[1],
-										arguments[2],
-										arguments[3],
-										arguments[4],
-										arguments[5],
-										arguments[6]
-									);
-									break;
-							}
-
-							Object.defineProperty(this, '_innerDate', {
-								configurable: false,
-								enumerable: false,
-								value: definedValue,
-								writable: false
+							// 劫持单次计时
+							eHookContext.hookReplace(window, 'setTimeout', function (setTimeout) {
+								return _this.getHookedTimerFunction('timeout', setTimeout)
 							});
-							return;
-						}
-						var now = timerContext._Date.now();
-						var passTime = now - timerContext.__lastDatetime;
-						var hookPassTime = passTime * (1 / timerContext._percentage);
-						// console.log(__this.__lastDatetime + hookPassTime, now,__this.__lastDatetime + hookPassTime - now);
-						Object.defineProperty(this, '_innerDate', {
-							configurable: false,
-							enumerable: false,
-							value: new timerContext._Date(timerContext.__lastMDatetime + hookPassTime),
-							writable: false
-						});
-					};
-				},
-				getHookedTimerFunction: function (type, timer) {
-					var property = '_' + type + 'Ids';
-					return function () {
-						var uniqueId = timerContext.genUniqueId();
-						var callback = arguments[0];
-						if (typeof callback === 'string') {
-							callback += ';timer.notifyExec(' + uniqueId + ')';
-							arguments[0] = callback;
-						}
-						if (typeof callback === 'function') {
-							arguments[0] = function () {
-								var returnValue = callback.apply(this, arguments);
-								timerContext.notifyExec(uniqueId);
-								return returnValue;
+							// 劫持循环计时器的清除方法
+							eHookContext.hookBefore(window, 'clearInterval', function (method, args) {
+								_this.redirectNewestId(args);
+							});
+							// 劫持循环计时器的清除方法
+							eHookContext.hookBefore(window, 'clearTimeout', function (method, args) {
+								_this.redirectNewestId(args);
+							});
+							var newFunc = this.getHookedDateConstructor();
+							eHookContext.hookClass(window, 'Date', newFunc, '_innerDate', ['now']);
+							Date.now = function () {
+								return new Date().getTime();
+							};
+							eHookContext.hookedToString(timerContext._Date.now, Date.now);
+							var objToString = Object.prototype.toString;
+
+							Object.prototype.toString = function toString() {
+								'use strict';
+								if (this instanceof timerContext._mDate) {
+									return '[object Date]';
+								} else {
+									return objToString.call(this);
+								}
+							};
+
+							eHookContext.hookedToString(objToString, Object.prototype.toString);
+							eHookContext.hookedToString(timerContext._setInterval, setInterval);
+							eHookContext.hookedToString(timerContext._setTimeout, setTimeout);
+							eHookContext.hookedToString(timerContext._clearInterval, clearInterval);
+							timerContext._mDate = window.Date;
+							this.hookShadowRoot();
+						},
+						getHookedDateConstructor: function () {
+							return function () {
+								if (arguments.length === 1) {
+									Object.defineProperty(this, '_innerDate', {
+										configurable: false,
+										enumerable: false,
+										value: new timerContext._Date(arguments[0]),
+										writable: false
+									});
+									return;
+								} else if (arguments.length > 1) {
+									var definedValue;
+									switch (arguments.length) {
+										case 2:
+											definedValue = new timerContext._Date(
+												arguments[0],
+												arguments[1]
+											);
+											break;
+										case 3:
+											definedValue = new timerContext._Date(
+												arguments[0],
+												arguments[1],
+												arguments[2],
+											);
+											break;
+										case 4:
+											definedValue = new timerContext._Date(
+												arguments[0],
+												arguments[1],
+												arguments[2],
+												arguments[3],
+											);
+											break;
+										case 5:
+											definedValue = new timerContext._Date(
+												arguments[0],
+												arguments[1],
+												arguments[2],
+												arguments[3],
+												arguments[4]
+											);
+											break;
+										case 6:
+											definedValue = new timerContext._Date(
+												arguments[0],
+												arguments[1],
+												arguments[2],
+												arguments[3],
+												arguments[4],
+												arguments[5]
+											);
+											break;
+										default:
+										case 7:
+											definedValue = new timerContext._Date(
+												arguments[0],
+												arguments[1],
+												arguments[2],
+												arguments[3],
+												arguments[4],
+												arguments[5],
+												arguments[6]
+											);
+											break;
+									}
+
+									Object.defineProperty(this, '_innerDate', {
+										configurable: false,
+										enumerable: false,
+										value: definedValue,
+										writable: false
+									});
+									return;
+								}
+								var now = timerContext._Date.now();
+								var passTime = now - timerContext.__lastDatetime;
+								var hookPassTime = passTime * (1 / timerContext._percentage);
+								// console.log(__this.__lastDatetime + hookPassTime, now,__this.__lastDatetime + hookPassTime - now);
+								Object.defineProperty(this, '_innerDate', {
+									configurable: false,
+									enumerable: false,
+									value: new timerContext._Date(timerContext.__lastMDatetime + hookPassTime),
+									writable: false
+								});
+							};
+						},
+						getHookedTimerFunction: function (type, timer) {
+							var property = '_' + type + 'Ids';
+							return function () {
+								var uniqueId = timerContext.genUniqueId();
+								var callback = arguments[0];
+								if (typeof callback === 'string') {
+									callback += ';timer.notifyExec(' + uniqueId + ')';
+									arguments[0] = callback;
+								}
+								if (typeof callback === 'function') {
+									arguments[0] = function () {
+										var returnValue = callback.apply(this, arguments);
+										timerContext.notifyExec(uniqueId);
+										return returnValue;
+									}
+								}
+								// 储存原始时间间隔
+								var originMS = arguments[1];
+								// 获取变速时间间隔
+								arguments[1] *= timerContext._percentage;
+								var resultId = timer.apply(window, arguments);
+								// 保存每次使用计时器得到的id以及参数等
+								timerContext[property][resultId] = {
+									args: arguments,
+									originMS: originMS,
+									originId: resultId,
+									nowId: resultId,
+									uniqueId: uniqueId,
+									oldPercentage: timerContext._percentage,
+									exceptNextFireTime: timerContext._Date.now() + originMS
+								};
+								return resultId;
+							};
+						},
+						redirectNewestId: function (args) {
+							var id = args[0];
+							if (timerContext._intervalIds[id]) {
+								args[0] = timerContext._intervalIds[id].nowId;
+								// 清除该记录id
+								delete timerContext._intervalIds[id];
 							}
-						}
-						// 储存原始时间间隔
-						var originMS = arguments[1];
-						// 获取变速时间间隔
-						arguments[1] *= timerContext._percentage;
-						var resultId = timer.apply(window, arguments);
-						// 保存每次使用计时器得到的id以及参数等
-						timerContext[property][resultId] = {
-							args: arguments,
-							originMS: originMS,
-							originId: resultId,
-							nowId: resultId,
-							uniqueId: uniqueId,
-							oldPercentage: timerContext._percentage,
-							exceptNextFireTime: timerContext._Date.now() + originMS
-						};
-						return resultId;
-					};
-				},
-				redirectNewestId: function (args) {
-					var id = args[0];
-					if (timerContext._intervalIds[id]) {
-						args[0] = timerContext._intervalIds[id].nowId;
-						// 清除该记录id
-						delete timerContext._intervalIds[id];
-					}
-					if (timerContext._timeoutIds[id]) {
-						args[0] = timerContext._timeoutIds[id].nowId;
-						// 清除该记录id
-						delete timerContext._timeoutIds[id];
-					}
-				},
-				// registerShortcutKeys: function (timer) {
-				// 	// 快捷键注册
-				// 	addEventListener('keydown', function (e) {
-				// 		switch (e.keyCode) {
-				// 			case 57:
-				// 				if (e.ctrlKey || e.altKey) {
-				// 					// custom
-				// 					timer.changeTime();
-				// 				}
-				// 				break;
-				// 			// [=]
-				// 			case 190:
-				// 			case 187: {
-				// 				if (e.ctrlKey) {
-				// 					// console.log('+2');
-				// 					timer.changeTime(2, 0, true);
-				// 				} else if (e.altKey) {
-				// 					// console.log('xx2');
-				// 					timer.changeTime(0, 2);
-				// 				}
-				// 				break;
-				// 			}
-				// 			// [-]
-				// 			case 188:
-				// 			case 189: {
-				// 				if (e.ctrlKey) {
-				// 					// console.log('-2');
-				// 					timer.changeTime(-2, 0, true);
-				// 				} else if (e.altKey) {
-				// 					// console.log('xx-2');
-				// 					timer.changeTime(0, -2);
-				// 				}
-				// 				break;
-				// 			}
-				// 			// [0]
-				// 			case 48: {
-				// 				if (e.ctrlKey || e.altKey) {
-				// 					// console.log('reset');
-				// 					timer.changeTime(0, 0, false, true);
-				// 				}
-				// 				break;
-				// 			}
-				// 			default:
-				// 			// console.log(e);
-				// 		}
-				// 	});
-				// },
-				/**
-				 * 当计时器速率被改变时调用的回调方法
-				 * @param percentage
-				 * @private
-				 */
-				percentageChangeHandler: function (percentage) {
-					// 改变所有的循环计时
-					util.ergodicObject(timerContext, timerContext._intervalIds, function (idObj, id) {
-						idObj.args[1] = Math.floor((idObj.originMS || 1) * percentage);
-						// 结束原来的计时器
-						this._clearInterval.call(window, idObj.nowId);
-						// 新开一个计时器
-						idObj.nowId = this._setInterval.apply(window, idObj.args);
-					});
-					// 改变所有的延时计时
-					util.ergodicObject(timerContext, timerContext._timeoutIds, function (idObj, id) {
-						var now = this._Date.now();
-						var exceptTime = idObj.exceptNextFireTime;
-						var oldPercentage = idObj.oldPercentage;
-						var time = exceptTime - now;
-						if (time < 0) {
-							time = 0;
-						}
-						var changedTime = Math.floor(percentage / oldPercentage * time);
-						idObj.args[1] = changedTime;
-						// 重定下次执行时间
-						idObj.exceptNextFireTime = now + changedTime;
-						idObj.oldPercentage = percentage;
-						// 结束原来的计时器
-						this._clearTimeout.call(window, idObj.nowId);
-						// 新开一个计时器
-						idObj.nowId = this._setTimeout.apply(window, idObj.args);
-					});
-				},
-				hookShadowRoot: function () {
-					var origin = Element.prototype.attachShadow;
-					eHookContext.hookAfter(Element.prototype, 'attachShadow',
-						function (m, args, result) {
-							extraElements.push(result);
-							return result;
-						}, false);
-					eHookContext.hookedToString(origin, Element.prototype.attachShadow);
-				},
-				hookDefine: function () {
-					const _this = this;
-					eHookContext.hookBefore(Object, 'defineProperty', function (m, args) {
-						var option = args[2];
-						var ele = args[0];
-						var key = args[1];
-						var afterArgs = _this.hookDefineDetails(ele, key, option);
-						afterArgs.forEach((arg, i) => {
-							args[i] = arg;
-						})
-					});
-					eHookContext.hookBefore(Object, 'defineProperties', function (m, args) {
-						var option = args[1];
-						var ele = args[0];
-						if (ele && ele instanceof Element) {
-							Object.keys(option).forEach(key => {
-								var o = option[key];
-								var afterArgs = _this.hookDefineDetails(ele, key, o);
-								args[0] = afterArgs[0];
-								delete option[key];
-								option[afterArgs[1]] = afterArgs[2]
+							if (timerContext._timeoutIds[id]) {
+								args[0] = timerContext._timeoutIds[id].nowId;
+								// 清除该记录id
+								delete timerContext._timeoutIds[id];
+							}
+						},
+						// registerShortcutKeys: function (timer) {
+						// 	// 快捷键注册
+						// 	addEventListener('keydown', function (e) {
+						// 		switch (e.keyCode) {
+						// 			case 57:
+						// 				if (e.ctrlKey || e.altKey) {
+						// 					// custom
+						// 					timer.changeTime();
+						// 				}
+						// 				break;
+						// 			// [=]
+						// 			case 190:
+						// 			case 187: {
+						// 				if (e.ctrlKey) {
+						// 					// console.log('+2');
+						// 					timer.changeTime(2, 0, true);
+						// 				} else if (e.altKey) {
+						// 					// console.log('xx2');
+						// 					timer.changeTime(0, 2);
+						// 				}
+						// 				break;
+						// 			}
+						// 			// [-]
+						// 			case 188:
+						// 			case 189: {
+						// 				if (e.ctrlKey) {
+						// 					// console.log('-2');
+						// 					timer.changeTime(-2, 0, true);
+						// 				} else if (e.altKey) {
+						// 					// console.log('xx-2');
+						// 					timer.changeTime(0, -2);
+						// 				}
+						// 				break;
+						// 			}
+						// 			// [0]
+						// 			case 48: {
+						// 				if (e.ctrlKey || e.altKey) {
+						// 					// console.log('reset');
+						// 					timer.changeTime(0, 0, false, true);
+						// 				}
+						// 				break;
+						// 			}
+						// 			default:
+						// 			// console.log(e);
+						// 		}
+						// 	});
+						// },
+						/**
+						 * 当计时器速率被改变时调用的回调方法
+						 * @param percentage
+						 * @private
+						 */
+						percentageChangeHandler: function (percentage) {
+							// 改变所有的循环计时
+							util.ergodicObject(timerContext, timerContext._intervalIds, function (idObj, id) {
+								idObj.args[1] = Math.floor((idObj.originMS || 1) * percentage);
+								// 结束原来的计时器
+								this._clearInterval.call(window, idObj.nowId);
+								// 新开一个计时器
+								idObj.nowId = this._setInterval.apply(window, idObj.args);
+							});
+							// 改变所有的延时计时
+							util.ergodicObject(timerContext, timerContext._timeoutIds, function (idObj, id) {
+								var now = this._Date.now();
+								var exceptTime = idObj.exceptNextFireTime;
+								var oldPercentage = idObj.oldPercentage;
+								var time = exceptTime - now;
+								if (time < 0) {
+									time = 0;
+								}
+								var changedTime = Math.floor(percentage / oldPercentage * time);
+								idObj.args[1] = changedTime;
+								// 重定下次执行时间
+								idObj.exceptNextFireTime = now + changedTime;
+								idObj.oldPercentage = percentage;
+								// 结束原来的计时器
+								this._clearTimeout.call(window, idObj.nowId);
+								// 新开一个计时器
+								idObj.nowId = this._setTimeout.apply(window, idObj.args);
+							});
+						},
+						hookShadowRoot: function () {
+							var origin = Element.prototype.attachShadow;
+							eHookContext.hookAfter(Element.prototype, 'attachShadow',
+								function (m, args, result) {
+									extraElements.push(result);
+									return result;
+								}, false);
+							eHookContext.hookedToString(origin, Element.prototype.attachShadow);
+						},
+						hookDefine: function () {
+							const _this = this;
+							eHookContext.hookBefore(Object, 'defineProperty', function (m, args) {
+								var option = args[2];
+								var ele = args[0];
+								var key = args[1];
+								var afterArgs = _this.hookDefineDetails(ele, key, option);
+								afterArgs.forEach((arg, i) => {
+									args[i] = arg;
+								})
+							});
+							eHookContext.hookBefore(Object, 'defineProperties', function (m, args) {
+								var option = args[1];
+								var ele = args[0];
+								if (ele && ele instanceof Element) {
+									Object.keys(option).forEach(key => {
+										var o = option[key];
+										var afterArgs = _this.hookDefineDetails(ele, key, o);
+										args[0] = afterArgs[0];
+										delete option[key];
+										option[afterArgs[1]] = afterArgs[2]
+									})
+								}
 							})
-						}
-					})
-				},
-				hookDefineDetails: function (target, key, option) {
-					if (option && target && target instanceof Element && typeof key === 'string' && key.indexOf('on') >= 0) {
-						option.configurable = true;
-					}
-					if (target instanceof HTMLVideoElement && key === 'playbackRate') {
-						option.configurable = true;
-						console.warn('[Timer Hook]', '已阻止默认操作视频倍率');
-						key = 'playbackRate_hooked'
-					}
-					return [target, key, option];
-				},
-				suppressEvent: function (ele, eventName) {
-					if (ele) {
-						delete ele['on' + eventName];
-						delete ele['on' + eventName];
-						delete ele['on' + eventName];
-						ele['on' + eventName] = undefined;
-					}
-					if (!suppressEvents[eventName]) {
-						eHookContext.hookBefore(EventTarget.prototype, 'addEventListener',
-							function (m, args) {
-								var eName = args[0];
-								if (eventName === eName) {
-									console.warn(eventName, 'event suppressed.')
-									args[0] += 'suppressed';
-								}
-							}, false);
-						suppressEvents[eventName] = true;
-					}
-				},
-				changePlaybackRate: function (ele, rate) {
-					delete ele.playbackRate;
-					delete ele.playbackRate;
-					delete ele.playbackRate;
-					ele.playbackRate = rate
-					if (rate !== 1) {
-						timerContext.defineProperty.call(Object, ele, 'playbackRate', {
-							configurable: true,
-							get: function () {
-								return 1;
-							},
-							set: function () {
+						},
+						hookDefineDetails: function (target, key, option) {
+							if (option && target && target instanceof Element && typeof key === 'string' && key.indexOf('on') >= 0) {
+								option.configurable = true;
 							}
-						});
-					}
-				}
-			}
-		};
-
-		var normalUtil = {
-			isInIframe: function () {
-				let is = global.parent !== global;
-				try {
-					is = is && global.parent.document.body.tagName !== 'FRAMESET'
-				} catch (e) {
-					// ignore
-				}
-				return is;
-			},
-			listenParentEvent: function (handler) {
-				global.addEventListener('message', function (e) {
-					var data = e.data;
-					var type = data.type || '';
-					if (type === 'changePercentage') {
-						handler(data.percentage || 0);
-					}
-				})
-			},
-			sentChangesToIframe: function (percentage) {
-				var iframes = document.querySelectorAll('iframe') || [];
-				var frames = document.querySelectorAll('frame');
-				if (iframes.length) {
-					for (var i = 0; i < iframes.length; i++) {
-						iframes[i].contentWindow.postMessage(
-							{type: 'changePercentage', percentage: percentage}, '*');
-					}
-				}
-				if (frames.length) {
-					for (var j = 0; j < frames.length; j++) {
-						frames[j].contentWindow.postMessage(
-							{type: 'changePercentage', percentage: percentage}, '*');
-					}
-				}
-			}
-		};
-
-		var querySelectorAll = function (ele, selector, includeExtra) {
-			var elements = ele.querySelectorAll(selector);
-			elements = Array.prototype.slice.call(elements || []);
-			if (includeExtra) {
-				extraElements.forEach(function (element) {
-					elements = elements.concat(querySelectorAll(element, selector, false));
-				})
-			}
-			return elements;
-		};
-
-		var generate = function () {
-			return function (util) {
-				// disable worker
-				workerURLs.forEach(function (url) {
-					if (util.urlMatching(location.href, 'http.*://.*' + url + '.*')) {
-						window['Worker'] = undefined;
-						console.log('Worker disabled');
-					}
-				});
-				var eHookContext = this;
-				var timerHooker = {
-					// 用于储存计时器的id和参数
-					_intervalIds: {},
-					_timeoutIds: {},
-					_auoUniqueId: 1,
-					// 计时器速率
-					__percentage: 1.0,
-					// 劫持前的原始的方法
-					_setInterval: window['setInterval'],
-					_clearInterval: window['clearInterval'],
-					_clearTimeout: window['clearTimeout'],
-					_setTimeout: window['setTimeout'],
-					_Date: window['Date'],
-					__lastDatetime: new Date().getTime(),
-					__lastMDatetime: new Date().getTime(),
-					videoSpeedInterval: 1000,
-					defineProperty: Object.defineProperty,
-					defineProperties: Object.defineProperties,
-					genUniqueId: function () {
-						return this._auoUniqueId++;
-					},
-					notifyExec: function (uniqueId) {
-						var _this = this;
-						if (uniqueId) {
-							// 清除 timeout 所储存的记录
-							var timeoutInfos = Object.values(this._timeoutIds).filter(
-								function (info) {
-									return info.uniqueId === uniqueId;
-								}
-							);
-							timeoutInfos.forEach(function (info) {
-								_this._clearTimeout.call(window, info.nowId);
-								delete _this._timeoutIds[info.originId]
-							})
-						}
-						// console.log(uniqueId, 'called')
-					},
-					/**
-					 * 初始化方法
-					 */
-					init: function () {
-						var timerContext = this;
-						var h = helper(eHookContext, timerContext, util);
-
-						h.hookDefine();
-						h.applyHooking();
-
-						// 设定百分比属性被修改的回调
-						Object.defineProperty(timerContext, '_percentage', {
-							get: function () {
-								return timerContext.__percentage;
-							},
-							set: function (percentage) {
-								if (percentage === timerContext.__percentage) {
-									return percentage;
-								}
-								h.percentageChangeHandler(percentage);
-								timerContext.__percentage = percentage;
-								return percentage;
+							if (target instanceof HTMLVideoElement && key === 'playbackRate') {
+								option.configurable = true;
+								console.warn('[Timer Hook]', '已阻止默认操作视频倍率');
+								key = 'playbackRate_hooked'
 							}
-						});
-
-						if (!normalUtil.isInIframe()) {
-							console.log('[TimeHooker]', 'loading outer window...');
-							h.applyUI();
-							h.applyGlobalAction(timerContext);
-							// h.registerShortcutKeys(timerContext);
-						} else {
-							console.log('[TimeHooker]', 'loading inner window...');
-							normalUtil.listenParentEvent((function (percentage) {
-								console.log('[TimeHooker]', 'Inner Changed', percentage)
-								this.change(percentage);
-							}).bind(this))
-						}
-					},
-					/**
-					 * 调用该方法改变计时器速率
-					 * @param percentage
-					 */
-					change: function (percentage) {
-						this.__lastMDatetime = this._mDate.now();
-						this.__lastDatetime = this._Date.now();
-						this._percentage = percentage;
-						// var oldNode = document.getElementsByClassName('_th-click-hover');
-						// var oldNode1 = document.getElementsByClassName('_th_times');
-						// var displayNum = (1 / this._percentage).toFixed(2);
-						// (oldNode[0] || {}).innerHTML = 'x' + displayNum;
-						// (oldNode1[0] || {}).innerHTML = 'x' + displayNum;
-						var a = document.getElementsByClassName('_th_cover-all-show-times')[0] || {};
-						a.className = '_th_cover-all-show-times';
-						this._setTimeout.bind(window)(function () {
-							a.className = '_th_cover-all-show-times _th_hidden';
-						}, 100);
-						this.changeVideoSpeed();
-						normalUtil.sentChangesToIframe(percentage);
-					},
-					changeVideoSpeed: function () {
-						var timerContext = this;
-						var h = helper(eHookContext, timerContext, util);
-						var rate = 1 / this._percentage;
-						rate > 16 && (rate = 16);
-						rate < 0.065 && (rate = 0.065);
-						var videos = querySelectorAll(document, 'video', true) || [];
-						if (videos.length) {
-							for (var i = 0; i < videos.length; i++) {
-								h.changePlaybackRate(videos[i], rate);
+							return [target, key, option];
+						},
+						suppressEvent: function (ele, eventName) {
+							if (ele) {
+								delete ele['on' + eventName];
+								delete ele['on' + eventName];
+								delete ele['on' + eventName];
+								ele['on' + eventName] = undefined;
+							}
+							if (!suppressEvents[eventName]) {
+								eHookContext.hookBefore(EventTarget.prototype, 'addEventListener',
+									function (m, args) {
+										var eName = args[0];
+										if (eventName === eName) {
+											console.warn(eventName, 'event suppressed.')
+											args[0] += 'suppressed';
+										}
+									}, false);
+								suppressEvents[eventName] = true;
+							}
+						},
+						changePlaybackRate: function (ele, rate) {
+							delete ele.playbackRate;
+							delete ele.playbackRate;
+							delete ele.playbackRate;
+							ele.playbackRate = rate
+							if (rate !== 1) {
+								timerContext.defineProperty.call(Object, ele, 'playbackRate', {
+									configurable: true,
+									get: function () {
+										return 1;
+									},
+									set: function () {
+									}
+								});
 							}
 						}
 					}
 				};
-				// 默认初始化
-				timerHooker.init();
-				return timerHooker;
-			}
-		};
 
-		if (global.eHook) {
-			global.eHook.plugins({
-				name: 'timer',
-				/**
-				 * 插件装载
-				 * @param util
-				 */
-				mount: generate()
-			});
-		}
-	}(window);
+				var normalUtil = {
+					isInIframe: function () {
+						let is = global.parent !== global;
+						try {
+							is = is && global.parent.document.body.tagName !== 'FRAMESET'
+						} catch (e) {
+							// ignore
+						}
+						return is;
+					},
+					listenParentEvent: function (handler) {
+						global.addEventListener('message', function (e) {
+							var data = e.data;
+							var type = data.type || '';
+							if (type === 'changePercentage') {
+								handler(data.percentage || 0);
+							}
+						})
+					},
+					sentChangesToIframe: function (percentage) {
+						var iframes = document.querySelectorAll('iframe') || [];
+						var frames = document.querySelectorAll('frame');
+						if (iframes.length) {
+							for (var i = 0; i < iframes.length; i++) {
+								iframes[i].contentWindow.postMessage(
+									{type: 'changePercentage', percentage: percentage}, '*');
+							}
+						}
+						if (frames.length) {
+							for (var j = 0; j < frames.length; j++) {
+								frames[j].contentWindow.postMessage(
+									{type: 'changePercentage', percentage: percentage}, '*');
+							}
+						}
+					}
+				};
+
+				var querySelectorAll = function (ele, selector, includeExtra) {
+					var elements = ele.querySelectorAll(selector);
+					elements = Array.prototype.slice.call(elements || []);
+					if (includeExtra) {
+						extraElements.forEach(function (element) {
+							elements = elements.concat(querySelectorAll(element, selector, false));
+						})
+					}
+					return elements;
+				};
+
+				var generate = function () {
+					return function (util) {
+						// disable worker
+						workerURLs.forEach(function (url) {
+							if (util.urlMatching(location.href, 'http.*://.*' + url + '.*')) {
+								window['Worker'] = undefined;
+								console.log('Worker disabled');
+							}
+						});
+						var eHookContext = this;
+						var timerHooker = {
+							// 用于储存计时器的id和参数
+							_intervalIds: {},
+							_timeoutIds: {},
+							_auoUniqueId: 1,
+							// 计时器速率
+							__percentage: 1.0,
+							// 劫持前的原始的方法
+							_setInterval: window['setInterval'],
+							_clearInterval: window['clearInterval'],
+							_clearTimeout: window['clearTimeout'],
+							_setTimeout: window['setTimeout'],
+							_Date: window['Date'],
+							__lastDatetime: new Date().getTime(),
+							__lastMDatetime: new Date().getTime(),
+							videoSpeedInterval: 1000,
+							defineProperty: Object.defineProperty,
+							defineProperties: Object.defineProperties,
+							genUniqueId: function () {
+								return this._auoUniqueId++;
+							},
+							notifyExec: function (uniqueId) {
+								var _this = this;
+								if (uniqueId) {
+									// 清除 timeout 所储存的记录
+									var timeoutInfos = Object.values(this._timeoutIds).filter(
+										function (info) {
+											return info.uniqueId === uniqueId;
+										}
+									);
+									timeoutInfos.forEach(function (info) {
+										_this._clearTimeout.call(window, info.nowId);
+										delete _this._timeoutIds[info.originId]
+									})
+								}
+								// console.log(uniqueId, 'called')
+							},
+							/**
+							 * 初始化方法
+							 */
+							init: function () {
+								var timerContext = this;
+								var h = helper(eHookContext, timerContext, util);
+
+								h.hookDefine();
+								h.applyHooking();
+
+								// 设定百分比属性被修改的回调
+								Object.defineProperty(timerContext, '_percentage', {
+									get: function () {
+										return timerContext.__percentage;
+									},
+									set: function (percentage) {
+										if (percentage === timerContext.__percentage) {
+											return percentage;
+										}
+										h.percentageChangeHandler(percentage);
+										timerContext.__percentage = percentage;
+										return percentage;
+									}
+								});
+
+								if (!normalUtil.isInIframe()) {
+									console.log('[TimeHooker]', 'loading outer window...');
+									h.applyUI();
+									h.applyGlobalAction(timerContext);
+									// h.registerShortcutKeys(timerContext);
+								} else {
+									console.log('[TimeHooker]', 'loading inner window...');
+									normalUtil.listenParentEvent((function (percentage) {
+										console.log('[TimeHooker]', 'Inner Changed', percentage)
+										this.change(percentage);
+									}).bind(this))
+								}
+							},
+							/**
+							 * 调用该方法改变计时器速率
+							 * @param percentage
+							 */
+							change: function (percentage) {
+								this.__lastMDatetime = this._mDate.now();
+								this.__lastDatetime = this._Date.now();
+								this._percentage = percentage;
+								// var oldNode = document.getElementsByClassName('_th-click-hover');
+								// var oldNode1 = document.getElementsByClassName('_th_times');
+								// var displayNum = (1 / this._percentage).toFixed(2);
+								// (oldNode[0] || {}).innerHTML = 'x' + displayNum;
+								// (oldNode1[0] || {}).innerHTML = 'x' + displayNum;
+								var a = document.getElementsByClassName('_th_cover-all-show-times')[0] || {};
+								a.className = '_th_cover-all-show-times';
+								this._setTimeout.bind(window)(function () {
+									a.className = '_th_cover-all-show-times _th_hidden';
+								}, 100);
+								this.changeVideoSpeed();
+								normalUtil.sentChangesToIframe(percentage);
+							},
+							changeVideoSpeed: function () {
+								var timerContext = this;
+								var h = helper(eHookContext, timerContext, util);
+								var rate = 1 / this._percentage;
+								rate > 16 && (rate = 16);
+								rate < 0.065 && (rate = 0.065);
+								var videos = querySelectorAll(document, 'video', true) || [];
+								if (videos.length) {
+									for (var i = 0; i < videos.length; i++) {
+										h.changePlaybackRate(videos[i], rate);
+									}
+								}
+							}
+						};
+						// 默认初始化
+						timerHooker.init();
+						return timerHooker;
+					}
+				};
+
+				if (global.eHook) {
+					global.eHook.plugins({
+						name: 'timer',
+						/**
+						 * 插件装载
+						 * @param util
+						 */
+						mount: generate()
+					});
+				}
+			}(window);
+		}()
+	};
 });
