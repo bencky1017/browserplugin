@@ -181,14 +181,16 @@ $(function() {
 				domSize.w=_this.width();
 				domSize.h=_this.height();
 			});
-			$('#viptool_vip').on('mouseup mouseout', function (event) {
+			// $('#viptool_vip').on('mouseup mouseout', function (event) {
+			$(document).on('mouseup', function (event) {
 				$('#viptool_vip').css({'cursor':'pointer'});
 				if (!bool_choose) {return false;}
 				if (!bool_move) {bool_choose = false;return false;}
 
 				bool_move = false;bool_choose = false;
 			});
-			$('#viptool_vip').on('mousemove', function (event) {
+			// $('#viptool_vip').on('mousemove', function (event) {
+			$(document).on('mousemove', function (event) {
 				if (!bool_choose) {return false;}
 				bool_move = true;
 
