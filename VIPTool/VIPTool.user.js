@@ -2,7 +2,7 @@
 // @name         🔥VIPTool——集合VIP破解和视频加速功能于一体🔥
 // @description  集合VIP破解和视频加速功能，原作者标注在对应模块的开头。
 // @namespace    https://github.com/bencky1017/browserplugin/VIPTool
-// @version      0.1.8
+// @version      0.1.9
 // @icon         data:image/png;base64,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
 // @author       BenckyC
 // @antifeature  tracking ============================================>>> 说明：自定义插件
@@ -270,12 +270,15 @@ $(function() {
 				videoList:[
 					// {name:"xixicai",	url:"https://laisoyiba.com/mov/s/?sv=3&url="},
 					{name:"天翼",		url:"https://jsap.attakids.com/?url="},
+					{name:"综合/B站2",	url:"https://jx.jsonplayer.com/player/?url="},
 					{name:"综合/B站",	url:"https://jx.bozrc.com:4433/player/?url="},
 					{name:"m1907",		url:"https://z1.m1907.cn/?jx="},
 					{name:"Player-JY",	url:"https://jx.playerjy.com/?url="},
 					{name:"虾米",		url:"https://jx.xmflv.com/?url="},
+					{name:"OK",			url:"https://api.okjx.cc:3389/jx.php?url="},
 					{name:"OK解析",		url:"https://okjx.cc/?url="},
 					{name:"乐多",		url:"https://api.leduotv.com/wp-api/ifr.php?isDp=1&vid="},
+					{name:"猪蹄",		url:"https://jx.iztyy.com/Bei/?url="},
 					{name:"yparse",		url:"https://jx.yparse.com/index.php?url="},
 					{name:"MAO",		url:"https://www.mtosz.com/m3u8.php?url="},
 					{name:"诺讯",		url:"https://www.nxflv.com/?url="},
@@ -284,7 +287,7 @@ $(function() {
 					{name:"夜幕",		url:"https://www.yemu.xyz/?url="},
 					{name:"BL",			url:"https://svip.bljiex.cc/?v="},
 					{name:"七彩",		url:"https://www.xymav.com/?url="},
-					{name:"人人迷",		url:"https://jx.blbo.cc:4433/?url="},
+					{name:"人人迷blbo",	url:"https://jx.blbo.cc:4433/?url="},
 					{name:"七哥",		url:"https://jx.mmkv.cn/tv.php?url="},
 					{name:"铭人云",		url:"https://parse.123mingren.com/?url="},
 					{name:"江湖云",		url:"https://api.jhdyw.vip/?url="},
@@ -297,8 +300,7 @@ $(function() {
 					{name:"无名小站",	url:"https://www.administratorw.com/video.php?url="},
 					{name:"CK",			url:"https://www.ckplayer.vip/jiexi/?url="},
 					{name:"盖世",		url:"https://www.gai4.com/?url="},
-					{name:"盘古",		url:"https://go.yh0523.cn/y.cy?url="},
-					{name:"Blbo",		url:"https://jx.blbo.cc:4433/?url="}
+					{name:"盘古",		url:"https://go.yh0523.cn/y.cy?url="}
 				],
 				// 播放器列表
 				playerList: [
