@@ -36,10 +36,5 @@
         //去除登录后可滚动
         document.getElementsByTagName('html')[0].style.overflow='visible';
 
-
-        //阿里云盘点击空白关闭详情页
-        $('.previewer--3q5IV').on('click',function(){
-            $('.modal--2-twY').remove('.modal--2-twY');
-        })
     };
 })();
