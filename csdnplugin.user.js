@@ -8,6 +8,7 @@
 // @match        *://*.csdn.net/*
 // @require      https://bencky1017.github.io/browserplugin/jquery-3.5.1.min.js
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function() {
