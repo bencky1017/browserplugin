@@ -25,19 +25,6 @@
 | ---- | ------------------------------------------ | ------------------------------------------------------------ |
 | 1    | 自动识别填充网页验证码                     | [https://greasyfork.org/zh-CN/scripts/459260](https://greasyfork.org/zh-CN/scripts/459260) |
 | 2    | 全网vip视频免费破解-专注一个脚本只做一件事 | [https://greasyfork.org/zh-CN/scripts/438657](https://greasyfork.org/zh-CN/scripts/438657) |
-| 3    |                                            |                                                              |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| 3    | 网页图片视频资源嗅探下载AixDownloader      | [https://aixdownloader.com/](https://aixdownloader.com/) \| [本地下载](/res/aixdownloader-9.0.47.crx) |
+| 4    |                                            |                                                              |
+| 5    |                                            |                                                              |
