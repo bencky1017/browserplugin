@@ -11,7 +11,9 @@
 | ---- | -------------- | ------------------------------------------------------------ | ------- |
 | 1    | 🔥CSDN优化插件🔥 | [https://greasyfork.org/zh-CN/scripts/476095](https://greasyfork.org/zh-CN/scripts/476095) | ✅已上传 |
 | 2    | 🌈彩虹滚动条🌈   | [https://greasyfork.org/zh-CN/scripts/483372](https://greasyfork.org/zh-CN/scripts/483372) | ✅已上传 |
-| 3    | VIPTool        | [VIPTool](https://bencky1017.github.io/browserplugin/VIPTool/VIPTool.user.js) | ❌未上传 |
+| 3    | ✒️文字变链接✒️   | [https://greasyfork.org/zh-CN/scripts/492869](https://greasyfork.org/zh-CN/scripts/492869) | ✅已上传 |
+| 4    | VIPTool        | [VIPTool](https://bencky1017.github.io/browserplugin/VIPTool/VIPTool.user.js) | ❌未上传 |
+|      |                |                                                              |         |
 
 
 
@@ -27,4 +29,3 @@
 | 2    | 全网vip视频免费破解-专注一个脚本只做一件事 | [https://greasyfork.org/zh-CN/scripts/438657](https://greasyfork.org/zh-CN/scripts/438657) |
 | 3    | 网页图片视频资源嗅探下载AixDownloader      | [https://aixdownloader.com/](https://aixdownloader.com/) \| [本地下载](/res/aixdownloader-9.0.47.crx) |
 | 4    |                                            |                                                              |
-| 5    |                                            |                                                              |
